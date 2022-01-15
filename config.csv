@@ -1,0 +1,4 @@
+video_name,airspeed_x1,airspeed_y1,airspeed_x2,airspeed_y2,timestamp_x1,timestamp_y1,timestamp_x2,timestamp_y2
+2022-01-01 17-31-30_Trim1.mp4,1142,750,1200,808,0,0,1080,225
+test2.mp4,50,40,,20,,,,
+test3.mp4,60,50,,40,,,,
