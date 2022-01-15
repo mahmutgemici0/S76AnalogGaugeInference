@@ -145,5 +145,5 @@ merged_df = inner_merge(df_sim, df_ocr)
 merged_df['Airspeed(Ind)'] = pd.to_numeric(merged_df['Airspeed(Ind)']).astype(int)
 
 #save as csv
-merged_df.to_csv('train_{}.csv'.format(VIDEO_NAME))
+merged_df.to_csv('final_csvs/train_{}.csv'.format(VIDEO_NAME))
 print('TRAINING CSV FILE HAS CREATED!!\n{}'.format(merged_df.head(1)))
